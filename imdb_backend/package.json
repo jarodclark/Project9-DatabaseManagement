@@ -1,0 +1,23 @@
+{
+  "name": "imdb_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-refresh": "^1.7.3",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "heroku": "^7.59.2",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
